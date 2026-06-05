@@ -1,0 +1,17 @@
+{
+  "name": "ai-remote-everywhere",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Multi-process AI remote dev bridge — route messages between IM and AI agents via WebSocket.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "tsx scripts/start-all.ts",
+    "build": "pnpm -r run build",
+    "lint": "eslint packages/*/src/**/*.ts",
+    "clean": "pnpm -r run clean"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@9.15.4"
+}
